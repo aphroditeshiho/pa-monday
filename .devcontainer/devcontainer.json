@@ -1,0 +1,34 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/marcosgomesneto/bun-devcontainers/tree/main/src/basic-bun
+{
+  "name": "Bun",
+  "dockerFile": "Dockerfile",
+  // Configure tool-specific properties.
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "oven.bun-vscode",
+        "MS-CEINTL.vscode-language-pack-zh-hans",
+        "EditorConfig.EditorConfig",
+        "dbaeumer.vscode-eslint",
+        "maggie.eslint-rules-zh-plugin",
+        "mhutchie.git-graph",
+        "UvDream.git-commit-lint-vscode",
+        "heybourn.headwind",
+        "esbenp.prettier-vscode",
+        "rvest.vs-code-prettier-eslint",
+        "streetsidesoftware.code-spell-checker",
+        "bradlc.vscode-tailwindcss",
+        "xabikos.ReactSnippets",
+        "jawandarajbir.react-vscode-extension-pack",
+        "ms-vscode.vscode-typescript-next",
+        "ellreka.tailwindcss-highlight"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  }
+}
